@@ -1,8 +1,8 @@
 FROM alpine:3.8
 
-ARG BUILD_DATE
-ARG VCS_REF
-ARG PHP_VERSION
+ARG BUILD_DATE=0000-00-00
+ARG VCS_REF=undef
+ARG PHP_VERSION=7.2
 
 LABEL org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.vcs-url="https://gitlab.dobrev.eu/docker/hello-world-bg-ab.git" \
